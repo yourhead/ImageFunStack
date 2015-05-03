@@ -1,0 +1,7 @@
+
+@import 'partial_each';
+
+#%id% {
+    @extend .warning;
+    border-width: 2px * 5;
+}

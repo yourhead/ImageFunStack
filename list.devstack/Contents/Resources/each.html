@@ -1,0 +1,24 @@
+%[if edit]%
+<p>
+    <h3>This stack demonstrates the use use of "-addType" parameter to the &#37;slice&#37; template.</h3>
+    <ul>
+    <li>The outer stack creates an &lt;ul> tag and allows only a specific type to be added.</li>
+    <li>Many inner stacks can be added by clicking the plus button.</li>
+    <li>The inner stacks can be added, removed, rearranged and moved between similar stacks.</li>
+    <li>The inner stacks can NOT be moved out of the outer stack, nor can any other stack be moved in.</li>
+    <li>The inner stack has a "hidden" property, so does not appear in the stacks library.</li>
+    <li>Each inner stack adds a &lt;li> tag containing an image.</li>
+    <li>The inner stack has an "inline" property so will be exported without a stacks-out and stacks-in wrapper.</li>
+    <li>The &#37;image&#37; template is used to export a small and a large sized image.</li>
+    <li>Javascript and jQuery are used to add behavior to the exported images.</li>
+    </ul>
+</p>
+%[endif]%  
+
+%[if !edit]%
+<ul>
+%[endif]%  
+%slice -addTypes="com.yourhead.stacks.listItem,text"%
+%[if !edit]%</ul>
+<div class='large_image'></div>
+%[endif]%  

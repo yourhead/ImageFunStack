@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourhead.stacks.list</string>
+	<key>title</key>
+	<string>Image Fun</string>
+	<key>subtitle</key>
+	<string>Demo Using Inline Images</string>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>html</string>
+			<key>filename</key>
+			<string>each.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>js</string>
+			<key>filename</key>
+			<string>each.js</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>js</string>
+			<key>filename</key>
+			<string>page.js</string>
+			<key>scope</key>
+			<string>page</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>scss</string>
+			<key>filename</key>
+			<string>page.scss</string>
+			<key>scope</key>
+			<string>page</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>scss</string>
+			<key>filename</key>
+			<string>each.scss</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>icon</string>
+	<key>tags</key>
+	<array>
+		<string>Demo</string>
+		<string>Images</string>
+	</array>
+	<key>libraries</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>jQuery</string>
+			<key>closure</key>
+			<true/>
+			<key>minVersion</key>
+			<string>1.0.0</string>
+			<key>maxVersion</key>
+			<string>3.0.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

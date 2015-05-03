@@ -1,0 +1,66 @@
+
+/*
+This is the page css file. It will only be added once to
+the page no matter how many times the stack is used.
+*/
+
+
+
+/*
+to make it easier to add many images the size is limited to 100px 
+in Edit mode. this change does not change the size or quality of
+the exported images    
+*/
+%[if edit]%  
+.com_yourhead_stacks_listItem_stack img {
+    width:auto;
+    max-height:100px;
+}
+%[endif]%
+
+
+
+
+%[if !edit]%  
+.com_yourhead_stacks_list_stack ul,
+.com_yourhead_stacks_list_stack li,
+.com_yourhead_stacks_list_stack li>img,
+.com_yourhead_stacks_list_stack .large_image {
+    display:            block;
+    position:           relative;
+    margin:             10px;
+    padding:            10px;
+    border:             2px solid red;
+}
+
+.com_yourhead_stacks_list_stack ul {
+    float:              left;
+    width:              300px;
+    list-style-type:    none;
+    text-align:         center;
+    border-color:       red;
+}
+
+.com_yourhead_stacks_list_stack li {
+    float:              left;
+    width:              auto;
+    border-color:       blue;
+}
+
+.com_yourhead_stacks_list_stack li>img {
+    width:              50px;
+    height:             50px;
+    margin:             0;
+    padding:            0;
+    border:             0;
+}
+
+.com_yourhead_stacks_list_stack .large_image {
+    float:              left;
+    width:              300px;
+    height:             300px;
+    background-repeat:  no-repeat;
+    background-size:    cover;
+    border-color:       orange;
+}
+%[endif]%  
