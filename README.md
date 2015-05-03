@@ -30,7 +30,7 @@ Stacks 3 has deprecated the `javascriptLib` and `javascriptClosure` keys. Now al
  * `minVersion`: the minimum version required by this stack
  * `maxVersion`: the maximum version required by this stack
 
-***Do not specify a min or max version unless you absolutely must.  Please attempt to support the broadest possible range of library versions.  Limiting versions will limit how your users can use your stack and will increase your support load
+***Do not specify a min or max version unless you absolutely must.  Please attempt to support the broadest possible range of library versions.  Limiting versions will limit how your users can use your stack and will increase your support load***
 
 ### Tags
 Tags are used by the stacks library to let the users group, sort, and search for your stacks.  You should include no more than 5 tags. The tags key is an Array of Strings. They should be simple and as terse as possible.  The first tag is special, when the user chooses to group their library items, the first tag will be used as the group label (much like Stacks 2).
