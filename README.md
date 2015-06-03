@@ -12,7 +12,7 @@ Example: `%slice -addTypes="com.yourhead.stacks.listItem,text"%`
 
 When the addTypes switch is used the normal Drop Stacks Here area is not displayed. Instead a `+` button is shown instead.  Clicking the button will add a stack of the type specified.  Once added the stack behaves like any other and can be dragged, configured, or deleted by the user.
 
-*addTypes are a replacement for the poorly performing `repeat` mechanism of Stacks 2.*
+*add-types and allowed-types are a replacement for the poorly performing `repeat` mechanism of Stacks 2.*
 
 
 ### Inline
