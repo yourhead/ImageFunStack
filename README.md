@@ -3,7 +3,10 @@
 This stack demonstrates some of the new featuers of the Stacks 3 API. It uses the new an *addType* and *inline* mechanisms to give the user an easy a flexible way to add many images to a stack.  Note that this stack contains a sub-stack as well.  Both stacks are delivered as a single unit.  The sub-stack is hidden (unless the user has chosen to display hidden stacks).
 
 ### Add Types
-Add types are a new way to allow the user to add multiple specific items to a stack.  To use add types you specify the types that are allowed to be added.
+Add types are a new way to allow the user to add specific stacks to a container.  To use add types you specify the ID of the stacks that you would like to be added when the + button is pushed.
+
+### Allowed Types
+Allowed types are a new way to limit which stacsk are allowed into a container.  To use allowed types you specify the the ID of the stacks that should be allowed into the container.
 
 Example: `%slice -addTypes="com.yourhead.stacks.listItem,text"%`
 
