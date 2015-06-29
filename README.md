@@ -26,9 +26,9 @@ Stacks 2.5 allowed stacks to be hidden from the default display in the library. 
 Stacks 3 allows users to display hidden items since there are times when it may be useful for Add-Types.  To keep things hidden, even when hidden items are being displayed, you can now use the "deprecated" key instead.
 
 ### Libraries
-Stacks 3 has deprecated the `javascriptLib` and `javascriptClosure` keys. Now all libraries are added using a single common mechanism.  You specify the `libraries` key.  It's an array of Dictionaries with the following keys:
+Stacks 3 a new library format the `javascriptLib` and `javascriptClosure` `cssLib` etc Now all libraries are added using a single common mechanism.  You specify the `libraries` key.  It's an array of Dictionaries with the following keys:
 
- * `name`: the name of the library. Currently `jQuery`, `MooTools`, and `Font Awesome` are supported.   *MooTools will be deprecated soon*
+ * `name`: the name of the library. Currently `jQuery`, `MooTools`, and `Font Awesome` are supported.
  * `closure`: whether to use the closure mechanism with this library (jQuery only). Note: defaults to YES.
  * `minVersion`: the minimum version required by this stack
  * `maxVersion`: the maximum version required by this stack
