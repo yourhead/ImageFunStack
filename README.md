@@ -1,5 +1,5 @@
 
-#Image Fun Stack
+# Image Fun Stack
 This stack demonstrates some of the new featuers of the Stacks 3 API. It uses the new an *addType* and *inline* mechanisms to give the user an easy a flexible way to add many images to a stack.  Note that this stack contains a sub-stack as well.  Both stacks are delivered as a single unit.  The sub-stack is hidden (unless the user has chosen to display hidden stacks).
 
 ### Add Types
